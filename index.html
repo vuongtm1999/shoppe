@@ -9,14 +9,16 @@
 
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
     <title>Shoppe</title>
 </head>
 <body>
     <!-- Block Element Modifier -->
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-saparate">
                             Tải ứng dụng
@@ -131,7 +133,7 @@
                 </nav>
 
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-svg">
                                 <g fill-rule="evenodd">
@@ -141,7 +143,7 @@
                         </a>
                     </div>
 
-                    <div class="header__search">
+                    <div class="header__search hide-on-mobile">
 
                         <div class="header__search-box-wrap">
                             <input type="text" class="header__search-box" placeholder="Tìm kiếm sản phẩm">
@@ -195,7 +197,7 @@
 
                     <div class="header__cart">
                         <div class="header__cart-wrap">
-                            <a class="header__cart-link" href="">
+                            <a class="header__cart-link" href="#">
                                 <i class="header__cart-icon fa fa-shopping-cart" aria-hidden="true"></i>
                             </a>
 
@@ -286,10 +288,26 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+            
+            <ul class="header-sort-bar">
+                <li class="header__sort-item">
+                    <a href="#" class="header-sort-bar__link">Liên quan</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header-sort-bar__link header__sort-item--active">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header-sort-bar__link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="#" class="header-sort-bar__link">Giá</a>
+                </li>
+            </ul>
         </header>
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__comlumn-2">
                         <nav class="category">
@@ -943,7 +961,7 @@
             </div>
         </div>
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__comlumn-2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
