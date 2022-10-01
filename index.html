@@ -26,10 +26,10 @@
                             <div class="header__qr">
                                 <img class="header__qr-img" src="./assets/img/qr_code.png" alt="QR code">
                                 <div class="header__qr-apps">
-                                    <a class="header__qr-link" href="">
+                                    <a class="header__qr-link" href="#">
                                         <img class="header__qr-doaload-img" src="./assets/img/google_play.png" alt="Google play">
                                     </a>
-                                    <a class="header__qr-link" href="">
+                                    <a class="header__qr-link" href="#">
                                         <img class="header__qr-doaload-img" src="./assets/img/app_store.png" alt="App store">
                                     </a>
                                 </div>
@@ -38,14 +38,14 @@
                         </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title--no-pointer">Kết nối</span>
-                            <a class="header__navbar-icon-link" href=""><i class="header__navbar-icon fa fa-facebook-square" aria-hidden="true"></i></a>
-                            <a class="header__navbar-icon-link" href=""><i class="header__navbar-icon fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="header__navbar-icon-link" href="#"><i class="header__navbar-icon fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a class="header__navbar-icon-link" href="#"><i class="header__navbar-icon fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-notify">
 
-                            <a class="header__navbar-item-link" href="">
+                            <a class="header__navbar-item-link" href="#">
                                 <i class="header__navbar-icon fa fa-bell-o" aria-hidden="true"></i>Thông báo
                             </a>
 
@@ -57,7 +57,7 @@
                                 <ul class="header__notify-list">
                                     <li class="header_notify-item header__notify-item--viewed">
 
-                                        <a href="" class="header__notify-link">
+                                        <a href="#" class="header__notify-link">
                                             <img class="header_notify-img" src="assets/img/notify/d8efeea5844ee935a8126cb3cf234def_tn.jfif" alt="notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</span>
@@ -69,7 +69,7 @@
 
                                     <li class="header_notify-item header__notify-item--viewed">
 
-                                        <a href="" class="header__notify-link">
+                                        <a href="#" class="header__notify-link">
                                             <img class="header_notify-img" src="assets/img/notify/6b01dfe42b8633a3daba8c8b9e9e7364_xhdpi.png" alt="notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%</span>
@@ -81,7 +81,7 @@
 
                                     <li class="header_notify-item">
 
-                                        <a href="" class="header__notify-link">
+                                        <a href="#" class="header__notify-link">
                                             <img class="header_notify-img" src="assets/img/notify/758f5ca68c4e3a9062816e65b58eba78_tn.png" alt="notify-img">
                                             <div class="header__notify-info">
                                                 <span class="header__notify-name">Ohui chính thức ra mắt dòng son lì mới THE FIRST GENITURE LIPSTICK</span>
@@ -93,12 +93,12 @@
                                 </ul>
 
                                 <footer class="header__notify-footer">
-                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                    <a href="#" class="header__notify-footer-btn">Xem tất cả</a>
                                 </footer>
                             </div>
                         </li>
                         <li class="header__navbar-item">
-                            <a class="header__navbar-item-link" href=""><i class="header__navbar-icon fa fa-question-circle" aria-hidden="true"></i>Trợ giúp</a>
+                            <a class="header__navbar-item-link" href="#"><i class="header__navbar-icon fa fa-question-circle" aria-hidden="true"></i>Trợ giúp</a>
                         </li>
 
                         <li class="header__navbar-item header__navbar-user">
@@ -107,16 +107,16 @@
 
                             <ul class="header__navbar-user-menu">
                                 <li class="header__navbar-user-item">
-                                    <a href="">Tài khoản của tôi</a>
+                                    <a href="#">Tài khoản của tôi</a>
                                 </li>
                                 <li class="header__navbar-user-item">
-                                    <a href="">Địa chỉ của tôi</a>
+                                    <a href="#">Địa chỉ của tôi</a>
                                 </li>
                                 <li class="header__navbar-user-item">
-                                    <a href="">Đơn mua</a>
+                                    <a href="#">Đơn mua</a>
                                 </li>
                                 <li class="header__navbar-user-item header__navbar-user-item--separate">
-                                    <a href="">Đăng xuất</a>
+                                    <a href="#">Đăng xuất</a>
                                 </li>
                             </ul>
                         </li>
@@ -133,6 +133,12 @@
                 </nav>
 
                 <div class="header-with-search">
+                    <label class="header__mobile-search" for="mobile-search-checkbox">
+                        <i class="fa fa-search header__mobile-search--icon" aria-hidden="true"></i>
+                    </label>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-svg">
@@ -155,12 +161,12 @@
                                 </h3>
                                 <ul class="header_search-history-list">
                                     <li class="header_search-history-item">
-                                        <a href="">
+                                        <a href="#">
                                             Kem duong da
                                         </a>
                                     </li>
                                     <li class="header_search-history-item">
-                                        <a href="">
+                                        <a href="#">
                                             Kem tri mun
                                         </a>
                                     </li>
@@ -291,7 +297,7 @@
 
             </div>
             
-            <ul class="header-sort-bar">
+            <ul class="header-sort-bar l-0">
                 <li class="header__sort-item">
                     <a href="#" class="header-sort-bar__link">Liên quan</a>
                 </li>
@@ -308,8 +314,8 @@
         </header>
         <div class="app__container">
             <div class="grid wide">
-                <div class="grid__row app__content">
-                    <div class="grid__comlumn-2">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
                         <nav class="category">
                             <h3 class="category__heading"><i class="category__heading-icon fa fa-list-ul" aria-hidden="true"></i> Danh mục</h3>
         
@@ -327,7 +333,55 @@
                         </nav>
                     </div>
     
-                    <div class="grid__comlumn-8">
+                    <div class="col l-10 m-12 c-12">
+                        <nav class="mobile-category">
+                                <ul class="mobile-category__list">
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li><li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                    <li class="mobile-category__item">
+                                        <a href="#" class="mobile-category__link">Dụng cụ &amp; Thiết bị tiện ích</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
@@ -341,10 +395,10 @@
                                 <!-- List options -->
                                 <ul class="select-input__list">
                                     <li class="select-input__item">
-                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                        <a href="#" class="select-input__link">Giá: Thấp đến cao</a>
                                     </li>
                                     <li class="select-input__item">
-                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                        <a href="#" class="select-input__link">Giá: Cao đến thấp</a>
                                     </li>
                                 </ul>
                             </div>
@@ -355,10 +409,10 @@
                                 </span>
 
                                 <div class="home-filter__page-control">
-                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn--disabled">
                                         <i class="home-filter__page-icon fa fa-angle-left"></i>
                                     </a>
-                                    <a href="" class="home-filter__page-btn">
+                                    <a href="#" class="home-filter__page-btn">
                                         <i class="home-filter__page-icon fa fa-angle-right"></i>
                                     </a>
                                 </div>
@@ -366,9 +420,9 @@
                         </div>
 
                         <div class="home-product">
-                            <div class="grid__row">
+                            <div class="row sm-gutter">
                                 <!-- Product item -->
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -404,8 +458,7 @@
                                         </div>
                                     </a>
                                 </div>
-
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c693b8322bd480deadeea9c6c81b48b8_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -441,7 +494,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -477,7 +530,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c4daeb5c65e861d4ecb6d01e0d8ca090_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -513,7 +566,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -549,11 +602,7 @@
                                         </div>
                                     </a>
                                 </div>
-                            </div>
-
-                            <div class="grid__row">
-                                <!-- Product item -->
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -589,8 +638,7 @@
                                         </div>
                                     </a>
                                 </div>
-
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c693b8322bd480deadeea9c6c81b48b8_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -626,7 +674,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -662,7 +710,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c4daeb5c65e861d4ecb6d01e0d8ca090_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
@@ -698,194 +746,9 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__comlumn-2-4">
-                                    <a class="home-product-item" href="#">
-                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
-                                        <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
-                                        <div class="home-product-item__price">
-                                            <span class="home-product-item__price-old">5.100.000đ</span>
-                                            <span class="home-product-item__price-current">3.999.000đ</span>
-                                        </div>
-                                        <div class="home-product-item__action">
-                                            <span class="home-product-item__like home-product-item__like--liked">
-                                                <i class="home-product-item__like-icon-empty fa fa-heart-o" aria-hidden="true"></i>
-                                                <i class="home-product-item__like-icon-fill fa fa-heart"></i>
-                                            </span>
-                                            <div class="home-product-item__rating">
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <span class="home-product-item__sold">51 đã bán</span>
-                                        </div>
-                                        <div class="home-product-item__origin">
-                                            <span class="home-product-item__brand">Vương</span>
-                                            <span class="home-product-item__origin-name">Singrapore</span>
-                                        </div>
-                                        <div class="home-product-item__favourite">
-                                            <i class="fa fa-check"></i>
-                                            <span>Yêu thích</span>
-                                        </div>
-                                        <div class="home-product-item__sale-off">
-                                            <span class="home-product-item__sale-off-percent">43%</span>
-                                            <span class="home-product-item__sale-off-label">GIẢM</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="grid__row">
-                                <!-- Product item -->
-                                <div class="grid__comlumn-2-4">
-                                    <a class="home-product-item" href="#">
-                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
-                                        <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
-                                        <div class="home-product-item__price">
-                                            <span class="home-product-item__price-old">5.100.000đ</span>
-                                            <span class="home-product-item__price-current">3.999.000đ</span>
-                                        </div>
-                                        <div class="home-product-item__action">
-                                            <span class="home-product-item__like home-product-item__like--liked">
-                                                <i class="home-product-item__like-icon-empty fa fa-heart-o" aria-hidden="true"></i>
-                                                <i class="home-product-item__like-icon-fill fa fa-heart"></i>
-                                            </span>
-                                            <div class="home-product-item__rating">
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <span class="home-product-item__sold">51 đã bán</span>
-                                        </div>
-                                        <div class="home-product-item__origin">
-                                            <span class="home-product-item__brand">Vương</span>
-                                            <span class="home-product-item__origin-name">Singrapore</span>
-                                        </div>
-                                        <div class="home-product-item__favourite">
-                                            <i class="fa fa-check"></i>
-                                            <span>Yêu thích</span>
-                                        </div>
-                                        <div class="home-product-item__sale-off">
-                                            <span class="home-product-item__sale-off-percent">43%</span>
-                                            <span class="home-product-item__sale-off-label">GIẢM</span>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="grid__comlumn-2-4">
-                                    <a class="home-product-item" href="#">
-                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c693b8322bd480deadeea9c6c81b48b8_tn);"></div>
-                                        <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
-                                        <div class="home-product-item__price">
-                                            <span class="home-product-item__price-old">5.100.000đ</span>
-                                            <span class="home-product-item__price-current">3.999.000đ</span>
-                                        </div>
-                                        <div class="home-product-item__action">
-                                            <span class="home-product-item__like home-product-item__like--liked">
-                                                <i class="home-product-item__like-icon-empty fa fa-heart-o" aria-hidden="true"></i>
-                                                <i class="home-product-item__like-icon-fill fa fa-heart"></i>
-                                            </span>
-                                            <div class="home-product-item__rating">
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <span class="home-product-item__sold">51 đã bán</span>
-                                        </div>
-                                        <div class="home-product-item__origin">
-                                            <span class="home-product-item__brand">Vương</span>
-                                            <span class="home-product-item__origin-name">Singrapore</span>
-                                        </div>
-                                        <div class="home-product-item__favourite">
-                                            <i class="fa fa-check"></i>
-                                            <span>Yêu thích</span>
-                                        </div>
-                                        <div class="home-product-item__sale-off">
-                                            <span class="home-product-item__sale-off-percent">43%</span>
-                                            <span class="home-product-item__sale-off-label">GIẢM</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="grid__comlumn-2-4">
-                                    <a class="home-product-item" href="#">
-                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
-                                        <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
-                                        <div class="home-product-item__price">
-                                            <span class="home-product-item__price-old">5.100.000đ</span>
-                                            <span class="home-product-item__price-current">3.999.000đ</span>
-                                        </div>
-                                        <div class="home-product-item__action">
-                                            <span class="home-product-item__like home-product-item__like--liked">
-                                                <i class="home-product-item__like-icon-empty fa fa-heart-o" aria-hidden="true"></i>
-                                                <i class="home-product-item__like-icon-fill fa fa-heart"></i>
-                                            </span>
-                                            <div class="home-product-item__rating">
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <span class="home-product-item__sold">51 đã bán</span>
-                                        </div>
-                                        <div class="home-product-item__origin">
-                                            <span class="home-product-item__brand">Vương</span>
-                                            <span class="home-product-item__origin-name">Singrapore</span>
-                                        </div>
-                                        <div class="home-product-item__favourite">
-                                            <i class="fa fa-check"></i>
-                                            <span>Yêu thích</span>
-                                        </div>
-                                        <div class="home-product-item__sale-off">
-                                            <span class="home-product-item__sale-off-percent">43%</span>
-                                            <span class="home-product-item__sale-off-label">GIẢM</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="grid__comlumn-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a class="home-product-item" href="#">
                                         <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c4daeb5c65e861d4ecb6d01e0d8ca090_tn);"></div>
-                                        <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
-                                        <div class="home-product-item__price">
-                                            <span class="home-product-item__price-old">5.100.000đ</span>
-                                            <span class="home-product-item__price-current">3.999.000đ</span>
-                                        </div>
-                                        <div class="home-product-item__action">
-                                            <span class="home-product-item__like home-product-item__like--liked">
-                                                <i class="home-product-item__like-icon-empty fa fa-heart-o" aria-hidden="true"></i>
-                                                <i class="home-product-item__like-icon-fill fa fa-heart"></i>
-                                            </span>
-                                            <div class="home-product-item__rating">
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="home-product-item__star--gold fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                            <span class="home-product-item__sold">51 đã bán</span>
-                                        </div>
-                                        <div class="home-product-item__origin">
-                                            <span class="home-product-item__brand">Vương</span>
-                                            <span class="home-product-item__origin-name">Singrapore</span>
-                                        </div>
-                                        <div class="home-product-item__favourite">
-                                            <i class="fa fa-check"></i>
-                                            <span>Yêu thích</span>
-                                        </div>
-                                        <div class="home-product-item__sale-off">
-                                            <span class="home-product-item__sale-off-percent">43%</span>
-                                            <span class="home-product-item__sale-off-label">GIẢM</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="grid__comlumn-2-4">
-                                    <a class="home-product-item" href="#">
-                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/8820f296ba47ee0008bfd91fd7ef5537_tn);"></div>
                                         <h4 class="home-product-item__name"> Ghim cài áo đính ngọc trai nhân tạo sang trọng thời trang tiện dụng cho nữ</h4>
                                         <div class="home-product-item__price">
                                             <span class="home-product-item__price-old">5.100.000đ</span>
@@ -924,34 +787,34 @@
 
                         <ul class="pagination home-product__pagination">
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">
+                                <a href="#" class="pagination-item__link">
                                     <i class="pagination-item__icon fa fa-angle-left"></i>
                                 </a>
                             </li>
                             <li class="pagination-item pagination-item--active">
-                                <a href="" class="pagination-item__link">1</a>
+                                <a href="#" class="pagination-item__link">1</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">2</a>
+                                <a href="#" class="pagination-item__link">2</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">3</a>
+                                <a href="#" class="pagination-item__link">3</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">4</a>
+                                <a href="#" class="pagination-item__link">4</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">5</a>
+                                <a href="#" class="pagination-item__link">5</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">...</a>
+                                <a href="#" class="pagination-item__link">...</a>
                             </li>
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">14</a>
+                                <a href="#" class="pagination-item__link">14</a>
                             </li>
 
                             <li class="pagination-item">
-                                <a href="" class="pagination-item__link">
+                                <a href="#" class="pagination-item__link">
                                     <i class="pagination-item__icon fa fa-angle-right"></i>
                                 </a>
                             </li>
@@ -962,81 +825,81 @@
         </div>
         <footer class="footer">
             <div class="grid wide">
-                <div class="grid__row">
-                    <div class="grid__comlumn-2-4">
+                <div class="row sm-gutter">
+                    <div class="col l-2-4 m-4 item c-6">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                                <a href="#" class="footer-item__link">Trung Tâm Trợ Giúp</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Vương-Shop Mall</a>
+                                <a href="#" class="footer-item__link">Vương-Shop Mall</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__comlumn-2-4">
+                    <div class="col l-2-4 m-4 item c-6">
                         <h3 class="footer__heading">Giới thiệu</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Giới thiệu</a>
+                                <a href="#" class="footer-item__link">Giới thiệu</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                                <a href="#" class="footer-item__link">Tuyển dụng</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Điều khoản</a>
+                                <a href="#" class="footer-item__link">Điều khoản</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__comlumn-2-4">
+                    <div class="col l-2-4 m-4 item c-6">
                         <h3 class="footer__heading">Danh mục</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Trang điểm mặt</a>
+                                <a href="#" class="footer-item__link">Trang điểm mặt</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                                <a href="#" class="footer-item__link">Trang điểm môi</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">Trang điểm mắt</a>
+                                <a href="#" class="footer-item__link">Trang điểm mắt</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__comlumn-2-4">
+                    <div class="col l-2-4 m-4 item c-6">
                         <h3 class="footer__heading">Theo dõi</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
+                                <a href="#" class="footer-item__link">
                                     <i class="footer-item__icon fa fa-facebook"></i>
                                     Facebook
                                 </a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
+                                <a href="#" class="footer-item__link">
                                     <i class="footer-item__icon fa fa-instagram"></i>
                                     Instagram
                                 </a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item__link">
+                                <a href="#" class="footer-item__link">
                                     <i class="footer-item__icon fa fa-linkedin"></i>
                                     Linkedin
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__comlumn-2-4">
+                    <div class="col l-2-4 m-8 item c-12">
                         <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
                         <div class="footer__download">
                             <img src="/assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
                             <div class="footer__download-apps">
-                                <a href="" class="footer__download-app-link">
+                                <a href="#" class="footer__download-app-link">
                                     <img src="/assets/img/google_play.png" alt="Google play" class="footer__download-app-img">
                                 </a>
-                                <a href="" class="footer__download-app-link">
+                                <a href="#" class="footer__download-app-link">
                                     <img src="/assets/img/app_store.png" alt="App store" class="footer__download-app-img">
                                 </a>
                             </div>
@@ -1085,8 +948,8 @@
                         <div class="auth-form__aside">
                             <p class="auth-form__policy-text">
                                 Bằng việc đăng kí, bạn đã đồng ý với Shopee về
-                                <a class="auth-form__text-link" href="">Điều khoản dịch dụ</a> & 
-                                <a class="auth-form__text-link" href="">Chính sách bảo mật</a>
+                                <a class="auth-form__text-link" href="#">Điều khoản dịch dụ</a> & 
+                                <a class="auth-form__text-link" href="#">Chính sách bảo mật</a>
                             </p>
                         </div>
     
@@ -1099,11 +962,11 @@
                     
                     <div class="auth-form__socials">
 
-                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn-with-icon">
+                        <a href="#" class="auth-form__socials--facebook btn btn--size-s btn-with-icon">
                             <i class="auth-form__socials-icon fa fa-facebook-square" aria-hidden="true"></i> <span class="auth-form__socials-title">Kết nối với facebook</span>
                         </a>
 
-                        <a href="" class="auth-form__socials--google btn btn--size-s btn-with-icon">
+                        <a href="#" class="auth-form__socials--google btn btn--size-s btn-with-icon">
                             <i class="auth-form__socials-icon fa fa-google" aria-hidden="true"></i> <span class="auth-form__socials-title">Kết nối với facebook</span>
                         </a>
                         
@@ -1130,9 +993,9 @@
                         </div>
     
                         <div class="auth-form__help">
-                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <a href="#" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
                             <span class="auth-form__help--separate"></span>
-                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            <a href="#" class="auth-form__help-link">Cần trợ giúp?</a>
                         </div>
     
                         <div class="auth-form__controls">
@@ -1144,11 +1007,11 @@
                     
                     <div class="auth-form__socials">
 
-                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn-with-icon">
+                        <a href="#" class="auth-form__socials--facebook btn btn--size-s btn-with-icon">
                             <i class="auth-form__socials-icon fa fa-facebook-square" aria-hidden="true"></i> <span class="auth-form__socials-title mlr-26">Đăng nhập với facebook</span>
                         </a>
 
-                        <a href="" class="auth-form__socials--google btn btn--size-s btn-with-icon">
+                        <a href="#" class="auth-form__socials--google btn btn--size-s btn-with-icon">
                             <i class="auth-form__socials-icon fa fa-google" aria-hidden="true"></i> <span class="auth-form__socials-title mlr-26">Đăng nhập với facebook</span>
                         </a>
                         
